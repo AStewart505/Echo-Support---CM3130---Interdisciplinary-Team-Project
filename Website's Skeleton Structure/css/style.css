@@ -2,7 +2,8 @@
 Author: Jess McGowan
 */
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: quicksand, sans-serif;
+    background-color: #fbfbff
 }
 
 i{
@@ -23,7 +24,7 @@ i{
 }
 
 #navbar,#nav{
-    background-color: #6DD962;
+    background-color: #6d6dd6;
 }
 
 .navbar-brand{
@@ -40,15 +41,15 @@ i{
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:focus{
-    background-color: #6DD962;
-    border-color: #45a34a;
+    background-color: #7a7ad3;
+    border-color: #6d6dd6;
     color:#000;
     padding: 50px;
 }
 
 .btn-primary:hover{
-    background-color: #6DD962;
-    border-color: #45a34a;
+    background-color: #3131a2;
+    border-color: #5151d8;
     color:#0a58ca
 }
 
