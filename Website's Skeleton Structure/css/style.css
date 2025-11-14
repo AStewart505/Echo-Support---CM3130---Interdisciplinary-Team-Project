@@ -24,7 +24,7 @@ i{
 }
 
 #navbar,#nav{
-    background-color: #6d6dd6;
+    background-color: #6d6dd6 !important;
 }
 
 .navbar-brand{
