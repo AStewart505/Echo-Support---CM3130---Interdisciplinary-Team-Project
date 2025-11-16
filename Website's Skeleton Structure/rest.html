@@ -21,85 +21,113 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-      <div class="container-fluid" id="navbar">
-        <a class="navbar-brand" href="https://rguecho.herokuapp.com/index.html">RGU ECHO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="https://rguecho.herokuapp.com/index.html"><i class="fa-solid fa-house"></i>Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownContacts" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-address-book"></i>24/7 Contacts
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownContacts"></ul>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact.html">Contacts - Landing Page</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/eng.html">School of Engineering</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/soc.html">School of Computing</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/external.html">External Contacts</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownQuickFixes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-stopwatch"></i>Quick Fixes
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuickFixes">
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now.html">Quick Fixes - Landing Page</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now/breathe.html">Breathe</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now/hydrate.html">Hydrate</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now/move.html">Move</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now/rest.html">Rest</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownBitMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-book"></i>Need a bit more?
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownBitMore">
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore.html">Bit More - Landing Page</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/alcohol.html">Alcohol</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/anxiety.html">Anxiety</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/depression.html">Depression</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/motivation.html">Motivation</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/relationships.html">Relationships</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/revisionexams.html">Revision/Exams</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/selfharm.html">Self Harm</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/sleep.html">Sleep</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/suicidalthoughts.html">Suicidal Thoughts</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/positive.html">Think Positive</a></li>
-                <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore/trauma.html">Trauma</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://rguecho.herokuapp.com/counsellingmyths.html"><i class="fa-solid fa-hammer"></i>Counselling Mythbusting</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://rguecho.herokuapp.com/aboutus.html"><i class="fa-solid fa-people-group"></i>About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://rguecho.herokuapp.com/bibliography.html"><i class="fa-solid fa-book-open"></i>References</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://rguecho.herokuapp.com/feedback.html"><i class="fa-solid fa-pen-to-square"></i>Feedback</a>
-            </li>
+  <div class="container-fluid" id="navbar">
+    <a class="navbar-brand" href="index.html">RGU ECHO</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+        </li>
+
+        <!-- 24/7 Contacts Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownContacts" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-address-book"></i> 24/7 Contacts
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownContacts">
+            <li><a class="dropdown-item" href="contact.html">Contacts - Landing Page</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/eng.html">School of Engineering</a></li>
+            <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/soc.html">School of Computing</a></li>
+            <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/contact/external.html">External Contacts</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="https://rguecho.herokuapp.com/index.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="https://rguecho.herokuapp.com/now.html">Now</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Rest</li>
-        </ol>
-      </nav>
+        </li>
+
+        <!-- Quick Fixes Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownQuickFixes" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-stopwatch"></i> Quick Fixes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuickFixes">
+            <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/now.html">Quick Fixes - Landing Page</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="breathe.html">Breathe</a></li>
+            <li><a class="dropdown-item" href="hydrate.html">Hydrate</a></li>
+            <li><a class="dropdown-item" href="move.html">Move</a></li>
+            <li><a class="dropdown-item" href="rest.html">Rest</a></li>
+          </ul>
+        </li>
+
+        <!-- Need a bit more? Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownBitMore" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-book"></i> Need a bit more?
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownBitMore">
+            <li><a class="dropdown-item" href="https://rguecho.herokuapp.com/bitmore.html">Bit More - Landing Page</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="alcohol.html">Alcohol</a></li>
+            <li><a class="dropdown-item" href="anxiety.html">Anxiety</a></li>
+            <li><a class="dropdown-item" href="depression.html">Depression</a></li>
+            <li><a class="dropdown-item" href="motivation.html">Motivation</a></li>
+            <li><a class="dropdown-item" href="relationships.html">Relationships</a></li>
+            <li><a class="dropdown-item" href="revisionexams.html">Revision/Exams</a></li>
+            <li><a class="dropdown-item" href="selfharm.html">Self Harm</a></li>
+            <li><a class="dropdown-item" href="sleep.html">Sleep</a></li>
+            <li><a class="dropdown-item" href="suicidalthoughts.html">Suicidal Thoughts</a></li>
+            <li><a class="dropdown-item" href="positive.html">Think Positive</a></li>
+            <li><a class="dropdown-item" href="trauma.html">Trauma</a></li>
+          </ul>
+        </li>
+
+        <!-- Counselling Mythbusting -->
+        <li class="nav-item">
+          <a class="nav-link" href="counsellingmyths.html">
+            <i class="fa-solid fa-hammer"></i> Counselling Mythbusting
+          </a>
+        </li>
+
+        <!-- About Us -->
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">
+            <i class="fa-solid fa-people-group"></i> About Us
+          </a>
+        </li>
+
+        <!-- References -->
+        <li class="nav-item">
+          <a class="nav-link" href="bibliography.html">
+            <i class="fa-solid fa-book-open"></i> References
+          </a>
+        </li>
+
+        <!-- Feedback -->
+        <li class="nav-item">
+          <a class="nav-link" href="feedback.html">
+            <i class="fa-solid fa-pen-to-square"></i> Feedback
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
     </div>
   </header>
   <div class="container">
