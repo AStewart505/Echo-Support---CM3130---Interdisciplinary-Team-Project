@@ -39,3 +39,14 @@ $(document).ready(function(){
 
     });
   });
+
+  window.addEventListener('DOMContentLoaded', () => {
+  const audio = document.getElementById('welcomeSound');
+  if (!audio) return;
+
+  // attempt to play; catch promise rejection
+  audio.play().catch(err => {
+    // autoplay blocked — you might show a UI button to "Enable sound"
+    console.log('Autoplay blocked:', err);
+  });
+});
