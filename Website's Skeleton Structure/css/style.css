@@ -220,3 +220,27 @@ Dark Mode Options
 #darkmodetoggle{
     margin-right: 50px;
 }
+
+/*
+Doctors Note Form
+*/
+.doctorsnoteform{
+    max-width: 300px;
+    margin: 20px;
+    border: #7a7ad3;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 20px;
+    text-align: center;
+}
+
+.slidecontainer{
+    margin:auto;
+    border: #7a7ad3;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    max-width: 150px;
+    padding: 5px;
+}
