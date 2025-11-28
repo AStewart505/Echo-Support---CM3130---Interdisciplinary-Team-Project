@@ -93,7 +93,7 @@ i{
     width: 280px;
     height: 100px;
     padding: 50px;
-    background-color: #6DD962;
+    background-color: #6d6dd6;
     /*text-align: center;*/
     justify-content: center;
     align-items: center;
@@ -132,7 +132,7 @@ i{
     padding: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: #6DD962;
+    background-color: #6d6dd6;
     margin-top: 20px;
     text-align: center;
 }
@@ -161,7 +161,7 @@ a{
 }
 
 .accordion-button:not(.collapsed){
-    background-color: #6DD962;
+    background-color: #6d6dd6;
     color:#312834
 }
 

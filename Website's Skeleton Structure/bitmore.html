@@ -20,103 +20,100 @@
   
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-        <div class="container-fluid" id="navbar">
-          <a class="navbar-brand" href="index.html">RGU ECHO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">
-                  <i class="fa-solid fa-house" aria-hidden="true"></i> Home
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                
-                <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-address-book" aria-hidden="true"></i> 24/7 Contacts
-                </a>
-                
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="contact.html">Contacts - Landing Page</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="contact/eng.html">School of Engineering</a></li>
-                  <li><a class="dropdown-item" href="contact/soc.html">School of Computing</a></li>
-                  <li><a class="dropdown-item" href="contact/external.html">External Contacts</a></li>
-                </ul>
-              </li>
-              
-              <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle" href="now.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-stopwatch" aria-hidden="true"></i> Quick Fixes
-                </a>
-              
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="now.html">Quick Fixes - Landing Page</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="now/breathe.html">Breathe</a></li>
-                  <li><a class="dropdown-item" href="now/hydrate.html">Hydrate</a></li>
-                  <li><a class="dropdown-item" href="now/move.html">Move</a></li>
-                  <li><a class="dropdown-item" href="now/rest.html">Rest</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                
-                <a class="nav-link dropdown-toggle" href="bitmore.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-book" aria-hidden="true"></i> Need a bit more?
-                </a>
-                
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="bitmore.html">Bit More - Landing Page</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="bitmore/alcohol.html">Alcohol</a></li>
-                  <li><a class="dropdown-item" href="bitmore/anxiety.html">Anxiety</a></li>
-                  <li><a class="dropdown-item" href="bitmore/depression.html">Depression</a></li>
-                  <li><a class="dropdown-item" href="bitmore/motivation.html">Motivation</a></li>
-                  <li><a class="dropdown-item" href="bitmore/relationships.html">Relationships</a></li>
-                  <li><a class="dropdown-item" href="bitmore/revisionexams.html">Revision/Exams</a></li>
-                  <li><a class="dropdown-item" href="bitmore/selfharm.html">Self Harm</a></li>
-                  <li><a class="dropdown-item" href="bitmore/sleep.html">Sleep</a></li>
-                  <li><a class="dropdown-item" href="bitmore/suicidalthoughts.html">Suicidal Thoughts</a></li>
-                  <li><a class="dropdown-item" href="bitmore/positive.html">Think Positive</a></li>
-                  <li><a class="dropdown-item" href="bitmore/trauma.html">Trauma</a></li>
-                </ul>
-              </li>
-              
-              <li class="nav-item">
-                
-                <a class="nav-link" href="counsellingmyths.html">
-                  <i class="fa-solid fa-hammer" aria-hidden="true"></i> Counselling Mythbusting
-                </a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">
-                  <i class="fa-solid fa-people-group" aria-hidden="true"></i> About Us
-                </a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="bibliography.html">
-                  <i class="fa-solid fa-book-open" aria-hidden="true"></i> References
-                </a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="feedback.html">
-                  <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i> Feedback
-                </a>
-              </li>
-            </ul>
-          </div>
+      <!--Start of the Navbar Code-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+      <div class="container-fluid" id="navbar">
+        <!--Navbar Logo-->
+        <img src="images/EchoLogo.jpeg" class="logoImage" style="width:auto; height:50px; border-radius:60%;"alt="Echo Logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navbar Menu items-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--Home-->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>
+                Home</a>
+            </li>
+            <!--Contacts Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-address-book"></i>24/7 Contacts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="contact.html">Contacts - Landing Page</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="contact/eng.html">School of Engineering</a></li>
+                <li><a class="dropdown-item" href="contact/soc.html">School of Computing</a></li>
+                <li><a class="dropdown-item" href="contact/external.html">External Contacts</a></li>
+              </ul>
+            </li>
+            <!--Help Now Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="now.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-stopwatch"></i>Quick Fixes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="now.html">Quick Fixes - Landing Page</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="breathe.html">Breathe</a></li>
+                <li><a class="dropdown-item" href="hydrate.html">Hydrate</a></li>
+                <li><a class="dropdown-item" href="move.html">Move</a></li>
+                <li><a class="dropdown-item" href="rest.html">Rest</a></li>
+              </ul>
+            </li>
+            <!--Bit More Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="bitmore.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-book"></i>Need a bit more?
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="bitmore.html">Bit More - Landing Page</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="bitmore/alcohol.html">Alcohol</a></li>
+                <li><a class="dropdown-item" href="bitmore/anxiety.html">Anxiety</a></li>
+                <li><a class="dropdown-item" href="bitmore/depression.html">Depression</a></li>
+                <li><a class="dropdown-item" href="bitmore/motivation.html">Motivation</a></li>
+                <li><a class="dropdown-item" href="bitmore/relationships.html">Relationships</a></li>
+                <li><a class="dropdown-item" href="bitmore/revisionexams.html">Revision/Exams</a></li>
+                <li><a class="dropdown-item" href="bitmore/selfharm.html">Self Harm</a></li>
+                <li><a class="dropdown-item" href="bitmore/sleep.html">Sleep</a></li>
+                <li><a class="dropdown-item" href="bitmore/suicidalthoughts.html">Suicidal Thoughts</a></li>
+                <li><a class="dropdown-item" href="bitmore/positive.html">Think Positive</a></li>
+                <li><a class="dropdown-item" href="bitmore/trauma.html">Trauma</a></li>
+              </ul>
+            </li>
+            <!--Counselling Myths-->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="counsellingmyths.html"><i class="fa-solid fa-hammer"></i>Counselling Mythbusting</a>
+            </li>
+            <!--About Us-->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="aboutus.html"><i class="fa-solid fa-people-group"></i>About
+                Us</a>
+            </li>
+            <!--Bibliography-->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="bibliography.html"><i class="fa-solid fa-book-open"></i>References</a>
+            </li>
+            <!--Feedback Form-->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="feedback.html"><i class="fa-solid fa-pen-to-square"></i>Feedback</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!--End of Navbar Section-->
     
+      <!--Breadcrumbs-->
       <div class="container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -127,66 +124,68 @@
       </div>
     </header>
   
-    <div class="container">
-      <section id="introduction">
-        <h1 id="title">Need a bit more?</h1>
-        <p class="normaltext">Good mental wellbeing is critical to excellence in performance, and maintaining good mental wellbeing will help you through those crunch times when there is a lot going on and not so much time.</p>
-        <p>The topics below give some more information about areas that support (or don't!) mental wellbeing.​</p>
-      </section>
-    </div>
+    <!--Page Title Section-->
+      <div class="container">
+        <section id="introduction">
+          <h1 id="title">Need a bit more?</h1>
+          <p class="normaltext">Good mental wellbeing is critical to excellence in performance, and maintaining good mental wellbeing will help you through those crunch times when there is a lot going on and not so much time.</p>
+          <p>The topics below give some more information about areas that support (or don't!) mental wellbeing.​</p>
+        </section>
+      </div>
   
-    <div class="container">
-      <div class="row">
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/alcohol.html">Alcohol</a>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/alcohol.html"><i class="fa-solid fa-stopwatch"></i>Alcohol</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/anxiety.html">Anxiety</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/anxiety.html"><i class="fa-solid fa-stopwatch"></i>Anxiety</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/depression.html">Depression</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/depression.html"><i class="fa-solid fa-stopwatch"></i>Depression</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/selfharm.html">Self Harm</a>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/selfharm.html"><i class="fa-solid fa-stopwatch"></i>Self Harm</a>
+          </div>
         </div>
-      </div>
     
-      <div class="row">
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/sleep.html">Sleep</a>
-        </div>
+        <div class="row">
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/sleep.html"><i class="fa-solid fa-stopwatch"></i>Sleep</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/revisionexams.html">Revision/Exams</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/revisionexams.html"><i class="fa-solid fa-stopwatch"></i>Revision/Exams</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/motivation.html">Motivation</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/motivation.html"><i class="fa-solid fa-stopwatch"></i>Motivation</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/positive.html">Think Positive</a>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/positive.html"><i class="fa-solid fa-stopwatch"></i>Think Positive</a>
+          </div>
         </div>
-      </div>
     
-      <div class="row">
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/relationships.html">Relationships</a>
-        </div>
+        <div class="row">
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/relationships.html"><i class="fa-solid fa-stopwatch"></i>Relationships</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/trauma.html">Traumatic Events</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/trauma.html"><i class="fa-solid fa-stopwatch"></i>Traumatic Events</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="bitmore/suicidalthoughts.html">Suicidal Thoughts</a>
-        </div>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="bitmore/suicidalthoughts.html"><i class="fa-solid fa-stopwatch"></i>Suicidal Thoughts</a>
+          </div>
       
-        <div class="d-grid col-sm-3 mx-auto">
-          <a class="btn btn-primary grid-btn" href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/mental-wellbeing-audio-guides/">[External Link] Audio guides to boost your mood</a>
+          <div class="d-grid col-sm-4 mx-auto">
+            <a class="btn btn-primary grid-btn" role="button" href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/mental-wellbeing-audio-guides/"><i class="fa-solid fa-stopwatch"></i>[External Link] Audio guides to boost your mood</a>
+          </div>
         </div>
       </div>
     </div>
@@ -201,7 +200,5 @@
     </footer>
   
     <script src="./bitmore_files/bootstrap.bundle.min.js.download" crossorigin="anonymous"></script>
-    <script defer src="./bitmore_files/cookieconsent.js.download"></script>
-    <script defer src="./bitmore_files/cookieconsent-init.js.download"></script>
   </body>
 </html>
